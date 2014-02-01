@@ -9,15 +9,9 @@
 
     <name>Mantee</name>
 
-    <description>
-        Tank control and reporting application
-    </description>
+    <description>Tank control and reporting application</description>
 
-    <author href="http://www.efodder.net" email="rudi.rademacher@gmail.com">
-        Rudi Rademacher
-    </author>
-	
-	<gap:platform name="android" />
+    <author href="http://www.efodder.net" email="rudi.rademacher@gmail.com">Rudi Rademacher</author>
       
     <!-- ICONS -->
     
@@ -39,23 +33,10 @@
         
     <!-- GENERAL PREFERENCES -->
         
-    <preference name="phonegap-version" value="3.1.0" />
+    <preference name="phonegap-version" value="2.9.0" />
     <preference name="orientation" value="default" />
     <preference name="fullscreen" value="true" /> <!-- remove the upper bar on iOS and Android -->
-        
-    <!-- iOS PREFERENCES -->
-    
-    <preference name="target-device" value="universal" />
-    <preference name="prerendered-icon" value="true" />
-    <preference name="ios-statusbarstyle" value="black-opaque" />
-    <preference name="detect-data-types" value="false" />
-    <preference name="exit-on-suspend" value="false" />
-
-    <preference name="webviewbounce" value="false" />
-    <preference name="stay-in-webview" value="false" />
-    <preference name="show-splash-screen-spinner" value="false" />
-    <preference name="auto-hide-splash-screen" value="true" /> <!-- if set to false, the splash screen must be hidden using a JavaScript API -->
-        
+      
     <!-- ANDROID PREFERENCES -->
         
     <preference name="android-minSdkVersion" value="7" /> <!-- minimum Android 2.1 -->
